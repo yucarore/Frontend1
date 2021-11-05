@@ -1,0 +1,68 @@
+body{
+    background-color: darkorange;
+}
+h1 {
+    text-align: center;
+}
+
+.nombre {
+    text-align: center;
+    color: cadetblue;
+    font-size: 70px;
+}
+
+.menu{
+    font-family: 'Manrope', sans-serif; 
+    color: cyan;
+}
+
+.sobremi{
+    font-family: 'Old Standard TT', serif;
+    color: darkcyan;
+    text-decoration: none;
+    position: relative;
+    left: 0.2px;
+    
+
+    
+
+}
+.center2 img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.Datos {
+    color: gray;
+    background-color: skyblue;
+    font-family: 'Manrope', sans-serif;
+}
+
+.piedepagina {
+    color: darkcyan;
+    text-align: center;
+    background-color: rgb(62, 62, 71);
+}
+
+.espacio{
+    margin-left: 41px;
+}
+
+.puntos ul{
+    list-style:none;
+    font-family: 'Old Standard TT', serif;
+}
+
+.linkedin {
+    color: darkcyan;
+
+}
+
+.github{
+    color: darkcyan; 
+}
+
+

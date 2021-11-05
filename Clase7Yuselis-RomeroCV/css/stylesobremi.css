@@ -1,0 +1,37 @@
+body{
+    background-color: darkorange;
+}
+.titulo{
+    text-align: center;
+    background-color:dodgerblue;
+    color:firebrick;
+    font-family: 'Old Standard TT', serif;
+    text-decoration: none;
+    border-bottom: firebrick;
+    
+
+}
+.titulosobremi{
+    text-align: center;
+    background-color: darkturquoise;
+    color: dimgray;
+    font-family: 'Old Standard TT', serif;
+}
+
+.textosobremi1{
+    
+    background-color: darkturquoise;
+    color: dimgray;
+    border: dodgerblue;
+    font-family: 'Old Standard TT', serif;
+
+}
+
+.textosobremi2{
+
+    background-color: darkturquoise;
+    color: dimgray;
+    border: dodgerblue;
+    font-family: 'Old Standard TT', serif;
+
+}
