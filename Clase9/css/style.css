@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenedor{
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+.p1 {
+    font-family: 'Manrope', sans-serif;
+    color: black;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.texto1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: black;
+
+}
+.fondoimagen{
+    background: whitesmoke;
+
+}
+
+.fondoimagen2{
+    background: brown;
+    
+}
+
+.texto2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    background: orange;
+    color: white;
+}
+.baner{
+    width: 2100px;
+    height: 800px;
+}
+
+.menuidiomas{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.menu{
+    background-color: orange;
+}
+
+.texto{
+    text-align: center;
+    left: auto;
+}
+
+.phone{
+    
+    width: 550px;
+    height: 250px;
+
+}
+
+.p2{
+    background-color: orange;
+    color: white;
+    
+}
+
+.pie{
+    padding: 10px;
+    
+}
+
+
+i{
+    font-size: 40px;
+    padding: 10px;
+    color: blanchedalmond;
+}
+
+
+.lu2{
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    padding: 10px;
+    color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(56, 26, 26);
+}
+.none{
+    color: white;
+}
