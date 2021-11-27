@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -10,99 +11,160 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Old+Standard+TT&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/28f4dda6d5.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/28f4dda6d5.js" crossorigin="anonymous"></script>
-    <script src='main.js'></script>
+
 </head>
+
 <body>
 
-<header>
+    <header>
 
-            <nav>                
-                <ul class="menuidiomas">
-                    <h1>Grandes ofertas en comederos</h1> 
-                    <li class="none" type="none">Español</li>
-                    <li class="none" type="none">Arg$</li>
-                </ul>
-            </nav>
+        <div class="contenedor1">
+            <h1>Grandes ofertas en comederos</h1>
+            <ul class="idiomas">
+                <li class="none" type="none">Español</li>
+                <li class="none" type="none">Arg$</li>
+            </ul>
+        </div>
 
-            <nav>
-                <ul class="menu">
-                    
-                    <img src="img/Logo.png">
-                    <i class="fas fa-bars"></i>
+        <nav>
+            <ul class="logo">
+
+                <img src="img/Logo.png">
+
+                <div class="menu">
+                    <li><a class="fas fa-paw" href="Categorias.html">Categorias</a></li>
+                    <li><a class="fas fa-paw" href="Pets.html">Pets</a></li>
+                    <li><a class="fas fa-paw" href="Nosotros.html">Nosotros</a></li>
+                    <li><a class="fas fa-paw" href="Contactanos.html">Contactanos</a></li>
+
+                </div>
+
+            </ul>
+        </nav>
+
+    </header>
 
 
-                    <li><a class="fas fa-paw" href="Categorias.html"style="text-decoration: none" >Categorias</a></li>
-                    <li><a class="fas fa-paw" href="Pets.html" style="text-decoration: none">Pets</a></li>
-                    <li><a class="fas fa-paw" href="Nosotros.html" style="text-decoration: none">Nosotros</a></li>
-                    <li><a class="fas fa-paw" href="Contactanos.html" style="text-decoration: none">Contactanos</a></li>
-
-                </ul>
-            </nav>
-    
-</header>
 
 
-<h2 class="texto">¡Es un placer tenerte aqui!</h2>
-
-<div class="contenedor">
+    <div class="contenedor2">
         <img class="baner" src="img/foto.png">
-        <div class="texto1">¡Comederos en descuentos!</div>
-        <div class="texto2">COMEDEROS</div>    
-</div>
-
-
-<h2 class="p1">Produtos Destacados</h2>
-
-<p>Comederos - Accesorios - Comida</p>
-<br>
-<div class="fondoimagen">
-    <img src="img/churrasquito.png">
-    <h4>Juguete churrasquito</h4>
-    <h5>$150</h5>
-    <img src="img/comedero.png">
-    <h4>Comedero para perro</h4>
-    <h5>$250</h5>
-    <img src="img/Huesito.png">
-    <h4>Juguete huesito</h4>
-    <h5>$650</h5>
-</div>
-
-<hr>
-<footer class="fondoimagen2">
+        <h2 class="texto">¡Es un placer tenerte aqui!</h2>
+        <h3 class="texto1">¡Comederos en descuento!</h3>
+        <h4 class="texto2">COMEDEROS</h4>
+    </div>
     
-    <!-- <h2><i class="fas fa-map-marker-alt"></i>Localidad</h2> 
-    <h3>Calle - Provincia</h3>
-    <h2><i class="fas fa-phone-alt" class="phone"></i>Telefono</h2>
-    <h3>Numero de Telefono</h3>
-    <img class="Correo Electronico" src="">
-    <h3>Direccion de Correo</h3>
-    <i class="fas fa-map-marker-alt"></i>
-    <br>    
-    <img src="img/Logo.png"> -->
+<div class="contenedorbanner">
+    <img class="banner" src="img/pawprint 1.png">
+    <h2 class="p1">Productos Destacados</h2>
 
-    <lu>
-        <i class="fas fa-map-marker-alt"></i>
-        <br>
-        <li class="lu2">Localidad</li>
-        <li>Calle - Provincia</li>
-
-        <i class="fas fa-phone-alt"></i>
-        <br>
-        <li class="lu2">Telefono</li>
-        <li>3016051924</li>
-
-        <i class="fas fa-envelope"></i>
-        <br>
-        <li class="lu2">Direccion de Correo</li>
-        <li>Texto</li> 
-        <img src="img/Logo.png">
-        
-    </lu>
+    <p>Comederos - Accesorios - Comida</p>
+</div>
     
+    
+    <div class="fondoimagen">
+        <div>
+            <img class="data" src="img/churrasquito.png">
+            <h4>Juguete churrasquito</h4>
+            <p>$150</p>
+        </div>
+        <div>
+            <img class="data" src="img/comedero.png">
+            <h4>Comedero para perro</h4>
+            <p>$250</p>
+        </div>
+        <div>
+            <img class="data" src="img/Huesito.png">
+            <h4>Juguete huesito</h4>
+            <p>$650</p>
+        </div>
+
+    </div>
+
+    <h2 class="contactenos">Contactanos</h2>
 
 
-</footer>
-<br>
-<p class="p2" style="text-align: center;">Todos los derechos reservados Front End</p>
+    <form class="form" action="text" method="POST">
+        <div class="formboton">
+
+            <p>
+                <label for="NombreyApellido"></label>
+                <input class="form1" placeholder="Nombre y Apellido" type="text" name="Nombre y Apellido"
+                    id="nombreyapellido">
+            </p>
+            <p>
+                <label for="Email"></label>
+                <input class="form1" placeholder="Email" type="email" name="email" id="email">
+            </p>
+            <p>
+                <label for="Telefono"></label>
+                <input class="form1" placeholder="Telefono" type="Telefono" name="Telefono" id="Telefono">
+            </p>
+        </div>
+        <p>
+            <button class="boton1">Resetear</button>
+            <button class="boton">Enviar</button>
+        </p>
+
+
+
+    </form>
+    <div class="contenedor5">
+        <div class="seccion1 sec">
+            <i class="fas fa-envelope mov "></i>
+            <h2 class="tit">Suscribete para mas novedades</h2>
+        </div>
+
+        <div class="info inf">
+            <input class="form3" placeholder="ingresa tu correo electronico" type="email" name="email" id="email">
+            <button class="bof">suscribete</button>
+        </div>
+    </div>
+
+
+
+    <footer class="fondoimagen2">
+
+
+        <lu class="contenedor3">
+            <div class="contenedor_fot1_1">
+                <div class="fot1_1">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                    <li class="lu2">Localidad</li>
+                    <li>Calle - Provincia</li>
+                </div>
+            </div>
+
+            <div class="contenedor_fot1_1">
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+
+                </div>
+                <div>
+                    <li class="lu2">Telefono</li>
+                    <li>3016051378</li>
+                </div>
+            </div>
+
+            <div class="contenedor_fot1_1">
+                <div>
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                    <li class="lu2">Direccion de Correo</li>
+                    <li>Direccion de correo</li>
+                </div>
+            </div>
+
+            <img class="logo2" src="img/Logo.png">
+        </lu>
+
+
+
+    </footer>
+    <p class="p2" style="text-align: center;">Todos los derechos reservados Front End</p>
 </body>
+
 </html>
